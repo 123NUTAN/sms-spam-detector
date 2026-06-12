@@ -3,8 +3,11 @@ import pickle
 import string
 import sklearn
 import nltk
-
+nltk.download('punkt')
+nltk.download('stopwords')
+nltk.download('punkt_tab')
 from nltk.corpus import stopwords
+
 from nltk.stem.porter import PorterStemmer
 ps=PorterStemmer()
 
