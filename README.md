@@ -1,6 +1,9 @@
 # SMS Spam Detection
 
 A Machine Learning project that classifies SMS messages as Spam or Not Spam.
+## Live Demo
+https://nutan-sms-spam-detector.streamlit.app
+
 
 ## Technologies Used
 - Python
@@ -24,3 +27,9 @@ A Machine Learning project that classifies SMS messages as Spam or Not Spam.
 ## Not Spam Example
 
 ![Not Spam Example](screenshots/not_spam_result.png)
+
+## Run Locally
+
+```bash
+pip install -r requirements.txt
+streamlit run app.py
